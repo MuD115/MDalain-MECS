@@ -1,0 +1,95 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.webscraper"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Muhammed\Documents\GitHub\MDalain-MECS\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Muhammed\Documents\GitHub\MDalain-MECS\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission
+12-->C:\Users\Muhammed\Documents\GitHub\MDalain-MECS\app\src\main\AndroidManifest.xml:6:5-7:38
+13        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+13-->C:\Users\Muhammed\Documents\GitHub\MDalain-MECS\app\src\main\AndroidManifest.xml:6:22-78
+14        android:maxSdkVersion="28" />
+14-->C:\Users\Muhammed\Documents\GitHub\MDalain-MECS\app\src\main\AndroidManifest.xml:7:9-35
+15
+16    <permission
+16-->[androidx.core:core:1.9.0] C:\Users\Muhammed\.gradle\caches\8.13\transforms\428e769e8c5d71cac39815b6c6fecec8\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+17        android:name="com.example.webscraper.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.9.0] C:\Users\Muhammed\.gradle\caches\8.13\transforms\428e769e8c5d71cac39815b6c6fecec8\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.9.0] C:\Users\Muhammed\.gradle\caches\8.13\transforms\428e769e8c5d71cac39815b6c6fecec8\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.example.webscraper.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.9.0] C:\Users\Muhammed\.gradle\caches\8.13\transforms\428e769e8c5d71cac39815b6c6fecec8\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.9.0] C:\Users\Muhammed\.gradle\caches\8.13\transforms\428e769e8c5d71cac39815b6c6fecec8\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->C:\Users\Muhammed\Documents\GitHub\MDalain-MECS\app\src\main\AndroidManifest.xml:9:5-28:19
+23        android:allowBackup="true"
+23-->C:\Users\Muhammed\Documents\GitHub\MDalain-MECS\app\src\main\AndroidManifest.xml:10:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.9.0] C:\Users\Muhammed\.gradle\caches\8.13\transforms\428e769e8c5d71cac39815b6c6fecec8\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+25        android:dataExtractionRules="@xml/data_extraction_rules"
+25-->C:\Users\Muhammed\Documents\GitHub\MDalain-MECS\app\src\main\AndroidManifest.xml:11:9-65
+26        android:debuggable="true"
+27        android:extractNativeLibs="false"
+28        android:fullBackupContent="@xml/backup_rules"
+28-->C:\Users\Muhammed\Documents\GitHub\MDalain-MECS\app\src\main\AndroidManifest.xml:12:9-54
+29        android:icon="@mipmap/ic_launcher"
+29-->C:\Users\Muhammed\Documents\GitHub\MDalain-MECS\app\src\main\AndroidManifest.xml:13:9-43
+30        android:label="@string/app_name"
+30-->C:\Users\Muhammed\Documents\GitHub\MDalain-MECS\app\src\main\AndroidManifest.xml:14:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->C:\Users\Muhammed\Documents\GitHub\MDalain-MECS\app\src\main\AndroidManifest.xml:15:9-54
+32        android:supportsRtl="true"
+32-->C:\Users\Muhammed\Documents\GitHub\MDalain-MECS\app\src\main\AndroidManifest.xml:16:9-35
+33        android:theme="@style/Theme.WebScraper" >
+33-->C:\Users\Muhammed\Documents\GitHub\MDalain-MECS\app\src\main\AndroidManifest.xml:17:9-48
+34        <activity
+34-->C:\Users\Muhammed\Documents\GitHub\MDalain-MECS\app\src\main\AndroidManifest.xml:19:9-27:20
+35            android:name="com.example.webscraper.MainActivity"
+35-->C:\Users\Muhammed\Documents\GitHub\MDalain-MECS\app\src\main\AndroidManifest.xml:20:13-41
+36            android:exported="true" >
+36-->C:\Users\Muhammed\Documents\GitHub\MDalain-MECS\app\src\main\AndroidManifest.xml:21:13-36
+37            <intent-filter>
+37-->C:\Users\Muhammed\Documents\GitHub\MDalain-MECS\app\src\main\AndroidManifest.xml:22:13-26:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\Muhammed\Documents\GitHub\MDalain-MECS\app\src\main\AndroidManifest.xml:23:17-69
+38-->C:\Users\Muhammed\Documents\GitHub\MDalain-MECS\app\src\main\AndroidManifest.xml:23:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\Muhammed\Documents\GitHub\MDalain-MECS\app\src\main\AndroidManifest.xml:25:17-77
+40-->C:\Users\Muhammed\Documents\GitHub\MDalain-MECS\app\src\main\AndroidManifest.xml:25:27-74
+41            </intent-filter>
+42        </activity>
+43
+44        <provider
+44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Muhammed\.gradle\caches\8.13\transforms\2a04045bd4e8c4e440478830544d6d98\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+45            android:name="androidx.startup.InitializationProvider"
+45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Muhammed\.gradle\caches\8.13\transforms\2a04045bd4e8c4e440478830544d6d98\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+46            android:authorities="com.example.webscraper.androidx-startup"
+46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Muhammed\.gradle\caches\8.13\transforms\2a04045bd4e8c4e440478830544d6d98\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+47            android:exported="false" >
+47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Muhammed\.gradle\caches\8.13\transforms\2a04045bd4e8c4e440478830544d6d98\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+48            <meta-data
+48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Muhammed\.gradle\caches\8.13\transforms\2a04045bd4e8c4e440478830544d6d98\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+49                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Muhammed\.gradle\caches\8.13\transforms\2a04045bd4e8c4e440478830544d6d98\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+50                android:value="androidx.startup" />
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Muhammed\.gradle\caches\8.13\transforms\2a04045bd4e8c4e440478830544d6d98\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+51            <meta-data
+51-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Muhammed\.gradle\caches\8.13\transforms\4ba21fd7874576d58b717ca2fedab6bd\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+52                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+52-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Muhammed\.gradle\caches\8.13\transforms\4ba21fd7874576d58b717ca2fedab6bd\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+53                android:value="androidx.startup" />
+53-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Muhammed\.gradle\caches\8.13\transforms\4ba21fd7874576d58b717ca2fedab6bd\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+54        </provider>
+55    </application>
+56
+57</manifest>

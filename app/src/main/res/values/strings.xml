@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Web Scraper</string>
+    <string name="enter_url">Enter URL</string>
+    <string name="scrape">Scrape</string>
+    <string name="scraped_image">Scraped Image</string>
+    <string name="download">Download</string>
 </resources>
